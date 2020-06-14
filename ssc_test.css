@@ -1,0 +1,42 @@
+.container{
+	border:2px solid black;
+	width: 800px;
+	margin-left: 18%;
+	position: relative;
+	opacity: 1;
+}
+
+.container img
+{
+	width: 100%;
+	height: auto;
+}
+
+.content
+{
+	opacity: 0;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	height: 100%;
+	padding: 20px 20px;
+	top: 0;
+	position: absolute;
+	transition:0.5s ease;
+
+}
+
+.container:hover .container{
+	opacity: 0.3;
+
+}
+
+.container:hover .content{
+	opacity: 1;
+}
+
+.content p{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 40px 0px;
+}

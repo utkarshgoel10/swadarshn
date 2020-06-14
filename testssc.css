@@ -1,0 +1,560 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+                   /*-----------------------------------Topmost Header--------------------------------------*/
+
+header{
+background-color: black;
+	background-position: inherit;
+	background-size: cover;
+	height: 5vh;
+}
+
+
+ul.header{
+	list-style-type: none;
+	float: right;
+	margin-top: 7px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+ul li.on{
+
+	display: inline-block;
+}
+
+ul li.on a{
+
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: transparent;
+	transition: 0.6s ease;
+}
+
+ul li.on a:hover{
+background-color: white;
+color: black;
+}
+
+.logo img{
+	float: left;
+	width: 30px;
+	height: auto;
+	margin-left: 5px;
+	margin-top: 5px;
+	
+}
+
+                          /*--------------------------------Navigation Bar------------------------------------*/
+
+.menu ul
+{
+	font-size: 16px;
+}
+
+.nav
+{
+	width: 100%;
+	background-color: whitesmoke;
+	color: black;
+}
+
+.menu
+{
+	font-weight: 500;
+	line-height: 45px;
+	
+}
+
+.nav ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav .menu .menu_item
+{
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.menu_item:hover
+{
+	background-color: crimson;
+}
+
+
+.nav .menu .menu_item a{
+	padding: 12px 24px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;  font-weight: bold;
+	display: block;
+}
+                   /*------------------------------------Search--------------------------------------------------------*/
+
+
+                        
+
+                 /*------------------------------------Img slider--------------------------------------------------------*/
+
+
+.maindiv{
+	width: 90%;
+	height: 650px;
+	position: relative;
+	left: 50%;
+	top: 400px;
+	transform: translate(-50%, -50%);
+	background-image: url(veg-banner-small.jpg);
+	background-size: 100% 100%;
+	box-shadow: 1px 1px 5px 3px black;
+	animation: slider 20s infinite linear;
+}
+
+@keyframes slider
+{
+	0%{background-image: url(veg-banner-small.jpg) ;}
+	10%{background-image: url(1234.jpg) ;}
+	35%{background-image: url(variety-of-vegetables-on-display.jpg) ;}
+	50%{background-image: url(cover_image_1587773038.jpg.800x600_q85_crop.jpg) ;}
+	80%{background-image: url(beauty-products-on-table.jpg) ;}
+	
+}
+
+/*------------------------------------------Categories-----------------------------------*/
+.hgd
+{
+
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 25px 25px;
+
+}
+
+
+/*-----------------------------------------------------*/
+
+.cntnr1
+{
+  border: 2px solid black;
+  width: 350px;
+  height:230px; 
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+  margin-top: 100px;
+  float: left;
+  margin-left: 25px;
+}
+
+
+
+.cntnr1 img
+{
+  width: 100%;
+  height: auto;
+}
+
+.cntnt1
+{
+  width: 100%;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px 20px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+
+}
+
+.cntnr1:hover .cntnr1{
+  opacity: 0.3;
+
+}
+
+.cntnr1:hover .cntnt1{
+  opacity: 1;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.cntnr2
+{
+  border: 2px solid black;
+  width: 300px;
+  height:230px; 
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+  margin-top: 100px;
+  float: left;
+  margin-left: 50px;
+}
+
+
+
+.cntnr2 img
+{
+  width: 100%;
+  height: auto;
+}
+
+.cntnt2
+{
+  width: 100%;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px 20px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+
+}
+
+.cntnr2:hover .cntnr2{
+  opacity: 0.3;
+
+}
+
+.cntnr2:hover .cntnt2{
+  opacity: 1;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+.cntnr3
+{ float: right;
+  border: 2px solid black;
+  width: 350px;
+  height:230px;
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+
+
+.cntnr3 img
+{
+  width: 100%;
+  height: auto;
+}
+
+.cntnt3
+{
+  width: 100%;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px 20px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+
+}
+
+.cntnr3:hover .cntnr3{
+  opacity: 0.3;
+
+}
+
+.cntnr3:hover .cntnt3{
+  opacity: 1;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+.cntnr4
+{float: left;
+  border: 2px solid black;
+  width: 330px;
+  height:245px; 
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+
+
+.cntnr4 img
+{
+  width: 100%;
+  height: auto;
+
+}
+
+.cntnt4
+{
+  width: 100%;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px 20px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+
+}
+
+.cntnr4:hover .cntnr4{
+  opacity: 0.3;
+
+}
+
+.cntnr4:hover .cntnt4{
+  opacity: 1;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.cntnr5
+{float: right;
+  border: 2px solid black;
+  width: 370px;
+  height:245px; 
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-right: 160px;
+}
+
+
+
+.cntnr5 img
+{
+  width: 100%;
+  height: auto;
+
+}
+
+.cntnt5
+{
+  width: 100%;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px 20px;
+  top: 0;
+  position: absolute;
+  transition: 0.5s ease;
+
+}
+
+.cntnr5:hover .cntnr5{
+  opacity: 0.3;
+
+}
+
+.cntnr5:hover .cntnt5{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------Img logo-----------------------------------*/
+
+.container
+{
+	border: 2px solid black;
+	width: 800px;
+	position: relative;
+	left: 19%;
+	overflow: hidden;
+	bottom: 150px;
+}
+
+
+
+.container img
+{
+	width: 100%;
+	height: auto;
+}
+
+.content
+{
+	width: 100%;
+	opacity: 0;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	height: 100%;
+	padding: 20px 20px;
+	top: 0;
+	position: absolute;
+	transition: 0.5s ease;
+
+}
+
+.container:hover .container{
+	opacity: 0.3;
+
+}
+
+.container:hover .content{
+	opacity: 1;
+}
+
+.content p{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+   padding: 45px 30px;
+}
+
+
+
+/*-------------------------------Footer--------------------------------------------------------*/
+
+footer
+{
+	background-color: black;
+	color: white;
+	width: 100%;
+	bottom: 0px;
+}
+
+.main-content
+{
+	display: flex;
+}
+
+.main-content .leftbox
+{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.leftbox h2
+{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+
+.centerbox
+{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.centerbox h2
+{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+
+
+.rightbox
+{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.rightbox h2
+{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.leftbox ._content
+{
+	margin: 20px 0 0 0;
+	text-align: justify;
+}
+
+.rightbox ._content
+{
+	margin: 20px 0 0 0;
+	text-align: justify;
+}
+
+.centerbox ._content
+{
+	margin: 20px 0 0 0;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
